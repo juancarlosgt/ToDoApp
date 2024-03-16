@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de Django
+*.log
+logs/
+*.sqlite3
+
+# Archivos de configuración
+*.pyc
+*.swp
+*.env
+
+# Entorno virtual / directorios de dependencias
+venv/
+env/
+env32/
+.env/
+
+# Otros
+media/
+static/
