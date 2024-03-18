@@ -3,22 +3,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Caché de Django
+# Django Cache
 *.log
 logs/
 *.sqlite3
 
-# Archivos de configuración
+# Configuration Files
 *.pyc
 *.swp
 *.env
 
-# Entorno virtual / directorios de dependencias
+# Virtual Environment / Dependency Directories
 venv/
 env/
 env32/
 .env/
 
-# Otros
+# Others
 media/
 static/
