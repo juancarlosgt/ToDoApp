@@ -3,9 +3,9 @@
 
 <p align="center">
   <b>The members of this project are:</b><br>
-  Shirley Guadalupe Celis Delgado - 1152212<br>
-  Marianella Herrera Rondón - 1151495<br>
-  Juan Carlos González Torres - 1152184
+  Shirley Guadalupe Celis Delgado - 1152212 - ShirleyGuadalupe<br>
+  Marianella Herrera Rondón - 1151495 - MarianellaHerrera<br>
+  Juan Carlos González Torres - 1152184 - juancarlosgt
 </p>
 
 In this project, we use Django as our web development framework. Below, you will find the necessary steps to install Django in a virtual environment.
