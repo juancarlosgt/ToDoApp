@@ -15,7 +15,7 @@ if "%1"=="migrate" (
 rem Command to lint a specific file with flake8
 if "%1"=="lint" (
     call .\venv\Scripts\activate.bat
-    flake8 %2
+    flake8 --config=.code_quality\.flake8 %2
     black %2
 )
 
