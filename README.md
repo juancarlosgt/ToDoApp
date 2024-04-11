@@ -3,14 +3,37 @@
 
 <p align="center">
   <b>The members of this project are:</b><br>
-  Shirley Guadalupe Celis Delgado - 1152212 - ShirleyGuadalupe<br>
-  Marianella Herrera Rondón - 1151495 - MarianellaHerrera<br>
-  Juan Carlos González Torres - 1152184 - juancarlosgt
+  Shirley Guadalupe Celis Delgado - 1152212<br>
+  Marianella Herrera Rondón - 1151495<br>
+  Juan Carlos González Torres - 1152184
 </p>
 
-In this project, we use Django as our web development framework. Below, you will find the necessary steps to install Django in a virtual environment.
+
+
+## Steps to properly run the project
+
+1. **Create a virtual environment using the following command**: Open a terminal or command prompt and navigate to your project location. Run the following command to create a new virtual environment named 'venv':
+
+    ```bash
+    python -m venv venv
+    ```
+
+2. **Install the dependencies with the following command**: 
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **To run the project, use the following command**: 
+
+    ```bash
+    python manage.py runserver
+    ```
+
+
 
 ## Installing Django in a Virtual Environment
+In this project, we use Django as our web development framework. Below, you will find the necessary steps to install Django in a virtual environment.
 
 To keep our project dependencies separate from the main system, we will use a virtual environment. Make sure you have Python installed on your system before you begin.
 
@@ -49,3 +72,5 @@ To keep our project dependencies separate from the main system, we will use a vi
     ```
 
 With these steps, you will have installed Django in a virtual environment and will be ready to start developing your project using this powerful web framework.
+
+
