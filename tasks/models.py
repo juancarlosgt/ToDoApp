@@ -1,8 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
 
 # Create your models here.
 from django.conf import settings
+
 
 class Task(models.Model):
     name = models.CharField(max_length=200)
@@ -25,6 +25,6 @@ class Task(models.Model):
         null=True,
     )
     completed = models.BooleanField(default=False)
-    
+
     def __str__(self):
         return self.name
