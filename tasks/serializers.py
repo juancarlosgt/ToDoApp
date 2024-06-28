@@ -22,7 +22,7 @@ class TaskListSerializer(serializers.ModelSerializer):
 class TaskUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
-        fields = ["name", "description", "priority"]
+        fields = ["name", "description", "priority","completed"]
 
     def update(self, instance, validated_data):
         validated_data["user"] = self.context["request"].user
