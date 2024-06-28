@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-&)w3swys7o_ix+$p*z@v-6cu9otsv28=4y=1k$5#6lpmnl4att"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['https://todoapp-zzlc.onrender.com','vermillion-belekoy-44654b.netlify.app']
+DEBUG = True
+#'https://todoapp-zzlc.onrender.com','vermillion-belekoy-44654b.netlify.app
+ALLOWED_HOSTS = []
 CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
