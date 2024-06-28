@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-&)w3swys7o_ix+$p*z@v-6cu9otsv28=4y=1k$5#6lpmnl4att
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #'https://todoapp-zzlc.onrender.com','vermillion-belekoy-44654b.netlify.app
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["todoapp-zzlc.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
@@ -46,12 +46,12 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
+    'django.middleware.common.CommonMiddleware',
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
