@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-&)w3swys7o_ix+$p*z@v-6cu9otsv28=4y=1k$5#6lpmnl4att
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #'https://todoapp-zzlc.onrender.com','vermillion-belekoy-44654b.netlify.app
-ALLOWED_HOSTS = ["httpstodoapp-zzlc.onrender.com"]
+ALLOWED_HOSTS = ["todoapp-zzlc.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
