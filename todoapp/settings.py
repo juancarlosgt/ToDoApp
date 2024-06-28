@@ -25,9 +25,8 @@ SECRET_KEY = "django-insecure-&)w3swys7o_ix+$p*z@v-6cu9otsv28=4y=1k$5#6lpmnl4att
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["todoapp-zzlc.onrender.com"]
-
-
+ALLOWED_HOSTS = ["https://todoapp-zzlc.onrender.com"]
+CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,6 +39,7 @@ INSTALLED_APPS = [
     "django_filters",
     "rest_framework_simplejwt",
     "rest_framework",
+    "corsheaders",
     "tasks.apps.TasksConfig",
     "profiles.apps.ProfilesConfig",
 ]
@@ -52,6 +52,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
 ROOT_URLCONF = "todoapp.urls"
